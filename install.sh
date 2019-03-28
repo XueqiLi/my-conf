@@ -5,6 +5,7 @@ echo "Setting up"
 # VIM
 echo "Config: VIM..."
 cp vim/vimrc ~/.vimrc
+mkdir ~/.vim ~/.vim/colors ~/.vim/bundle
 cp vim/vim/colors/peaksea.vim ~/.vim/colors/
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
