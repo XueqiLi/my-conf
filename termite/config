@@ -44,7 +44,7 @@ scrollback_lines = 10000
 #cursor = #dcdccc
 #cursor_foreground = #dcdccc
 
-#foreground = #dcdccc
+foreground = #c6c8d2
 #foreground_bold = #ffffff
 background = rgba(0,0,0,0.8)
 
@@ -55,22 +55,22 @@ background = rgba(0,0,0,0.8)
 highlight = #2f2f2f
 
 # Colors from color0 to color254 can be set
-color0 = #3f3f3f
-color1 = #705050
-color2 = #60b48a
-color3 = #dfaf8f
-color4 = #506070
-color5 = #dc8cc3
-color6 = #8cd0d3
-color7 = #dcdccc
-color8 = #709080
-color9 = #dca3a3
-color10 = #c3bf9f
-color11 = #f0dfaf
-color12 = #94bff3
-color13 = #ec93d3
-color14 = #93e0e3
-color15 = #ffffff
+color0 = #000000 
+color1 = #e5663d 
+color2 = #7bc54a
+color3 = #eadb38
+color4 = #2e88fd
+color5 = #f774c5
+color6 = #42bee1
+color7 = #c7c7c7
+color8 = #676767
+color9 = #e89276
+color10 = #8fc36c
+color11 = #fefb67
+color12 = #6ea3f5
+color13 = #fc99cb
+color14 = #88d6eb
+color15 = #feffff
 
 [hints]
 #font = Monospace 12
