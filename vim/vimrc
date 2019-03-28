@@ -18,10 +18,13 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'itchyny/lightline.vim'
 
-
-
-
-
+" Color
+Plugin 'drewtempelmeyer/palenight.vim'
+Plugin 'joshdick/onedark.vim'
+Plugin 'tyrannicaltoucan/vim-deep-space'
+Plugin 'rakr/vim-one'
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'vim-scripts/peaksea'
 
 
 
@@ -131,7 +134,8 @@ set mat=2                   " How many tenths of a second to blink when matching
 set encoding=utf8           " Set utf8 as standard encoding and en_US as the standard language
 set ffs=unix,dos,mac        " Use Unix as the standard file type
 
-
+set ttymouse=xterm2         "allouse mouse in tmux
+set mouse=a
 
 " Search
 set ignorecase              " Ignore case when searching
@@ -156,8 +160,11 @@ set wrap "Wrap lines
 
 " Style
 set background=dark
-colorscheme peaksea
+set termguicolors
+colorscheme peaksea 
 hi Normal guibg=NONE ctermbg=NONE
+hi NonText ctermbg=NONE
+
 "hi Folded     guifg=NONE  guibg=NONE   gui=NONE
 "hi FoldColumn     guifg=NONE    guibg=NONE   gui=NONE
 "set foldcolumn=1
