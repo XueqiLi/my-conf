@@ -4,7 +4,9 @@
 #bold_is_bright = true
 #clickable_url = true
 #dynamic_title = true
+font = SF Mono Regular 8 
 font = Source Code Pro 8
+font = Source Han Sans 8
 #fullscreen = true
 #icon_name = terminal
 #mouse_autohide = false
