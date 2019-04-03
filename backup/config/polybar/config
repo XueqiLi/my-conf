@@ -30,6 +30,10 @@ red = #ea391e
 green = #359935
 yellow = #f2ac09
 
+;==========================================================
+; Example
+;==========================================================
+
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
@@ -80,6 +84,13 @@ tray-padding = 2
 cursor-click = pointer
 cursor-scroll = ns-resize
 
+
+
+;==========================================================
+; My Conf
+;==========================================================
+
+
 [bar/dark]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
@@ -110,8 +121,6 @@ font-2 = Material Icons:size=15;4
 font-3 = FontAwesome:size=10;2
 font-4 = siji:pixelsize=10;1
 
-;font-0 = fixed:pixelsize=10;1
-;font-1 = Unifont:fontformat=truetype:size=8:antialias=false;0
 ;font-2 = siji:pixelsize=10;1
 
 modules-left = filesystem backlight-acpi memory cpu temperature
@@ -121,13 +130,10 @@ modules-right = alsa wlan eth battery date powermenu
 tray-position = left
 tray-padding = 2
 tray-maxsize = 16 tray-background = #000 
-;wm-restack = bspwm
 ;wm-restack = i3
 
 ;override-redirect = true
 
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
 
 ;scroll-up = i3wm-wsnext
 ;scroll-down = i3wm-wsprev
@@ -135,6 +141,10 @@ tray-maxsize = 16 tray-background = #000
 cursor-click = pointer
 cursor-scroll = ns-resize
 
+
+;==========================================================
+; Module
+;==========================================================
 
 
 [module/xwindow]
@@ -162,7 +172,8 @@ interval = 25
 
 mount-0 = /
 
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-mounted = "  %percentage_used%%"
+;label-mounted = " %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%"
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -254,7 +265,7 @@ enable-scroll = true
 ;   <label> (default)
 ;   <ramp>
 ;   <bar>
-format = "   <ramp> <label>"
+format = "<ramp>  <label>"
 
 ; Available tokens:
 ;   %percentage% (default)
