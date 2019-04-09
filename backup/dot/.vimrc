@@ -17,13 +17,15 @@ Plugin 'VundleVim/Vundle.vim'
 " Add plugin here
 
 Plugin 'itchyny/lightline.vim'
+Plugin 'lervag/vimtex'
+Plugin 'KeitaNakamura/tex-conceal.vim'
 
 " Color
-Plugin 'drewtempelmeyer/palenight.vim'
-Plugin 'joshdick/onedark.vim'
-Plugin 'tyrannicaltoucan/vim-deep-space'
-Plugin 'rakr/vim-one'
-Plugin 'arcticicestudio/nord-vim'
+"Plugin 'drewtempelmeyer/palenight.vim'
+"Plugin 'joshdick/onedark.vim'
+"Plugin 'tyrannicaltoucan/vim-deep-space'
+"Plugin 'rakr/vim-one'
+"Plugin 'arcticicestudio/nord-vim'
 Plugin 'vim-scripts/peaksea'
 
 
@@ -235,3 +237,24 @@ let g:lightline = {
       \ 'separator': { 'left': ' ', 'right': ' ' },
       \ 'subseparator': { 'left': ' ', 'right': ' ' }
       \ }
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vimtex
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"let g:vimtex_complete_bib={'simple': 0, 'recursive': 1, 'abbr_fmt': '', 'custom_patterns': [], 'menu_fmt': '[@type] @author_short (@year), "@title"'}
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
+highlight Conceal guibg=NONE
+
+
+if empty(v:servername) && exists('*remote_startserver')
+   call remote_startserver('VIM')
+   endif
+
+setlocal spell
+set spelllang=en_us
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+hi SpellBad cterm=underline
