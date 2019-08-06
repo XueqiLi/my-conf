@@ -1,0 +1,74 @@
+{
+   "appDesc": {
+      "message": "最好的页面自动刷新插件，可以帮助你以指定的时间间隔在恰当的时机自动刷新页面，当然也有很多其他有用的功能，如：当发现页面上出现某个文本或者元素时自动停止等。而且，没有广告，100%免费"
+   },
+   "appName": {
+      "message": "页面自动刷新插件"
+   },
+   "cssSelectorPlaceholder": {
+      "message": "输入 CSS 选择器"
+   },
+   "domReady": {
+      "message": "页面结构加载完成时（DomReady）"
+   },
+   "inputLabel": {
+      "message": "刷新间隔（秒）:"
+   },
+   "inputPlaceholder": {
+      "message": "输入刷新间隔"
+   },
+   "moreSettings": {
+      "message": "更多设置"
+   },
+   "never": {
+      "message": "永不"
+   },
+   "noCache": {
+      "message": "无缓存刷新"
+   },
+   "notify": {
+      "message": "定时启动或者满足条件停止时提醒我"
+   },
+   "onIcon": {
+      "message": "在图标上"
+   },
+   "onLoad": {
+      "message": "所有页面资源加载完时（OnLoad）"
+   },
+   "onPage": {
+      "message": "在页面上"
+   },
+   "others": {
+      "message": "其他"
+   },
+   "rightNow": {
+      "message": "立刻"
+   },
+   "someElementAppears": {
+      "message": "当页面中出现某个 DOM 节点"
+   },
+   "someTextAppears": {
+      "message": "当页面中出现某段文本"
+   },
+   "specificTime": {
+      "message": "指定时间"
+   },
+   "textPlaceholder": {
+      "message": "正则表达式或者字符串"
+   },
+   "tip": {
+      "message": "合法的配置修改会立即生效"
+   },
+   "whenToStartTask": {
+      "message": "什么时候开始任务"
+   },
+   "whenToStopTask": {
+      "message": "什么时候停止任务"
+   },
+   "whereToShowCountdown": {
+      "message": "哪里展示倒计时"
+   },
+   "whereToStartCountdown": {
+      "message": "什么时候开始倒计时"
+   }
+}

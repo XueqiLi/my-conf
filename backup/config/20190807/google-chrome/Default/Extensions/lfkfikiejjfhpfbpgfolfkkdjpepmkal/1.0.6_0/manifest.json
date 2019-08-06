@@ -1,0 +1,35 @@
+{
+   "author": "sarike@timefly.cn",
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "image/icon128.png",
+         "64": "image/icon64.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "css": [ "css/style.css" ],
+      "js": [ "js/content.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://www.timefly.cn/free-auto-refresh",
+   "icons": {
+      "128": "image/icon128.png",
+      "64": "image/icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnyALxrKU0VOQe/NnDAgHoH+Nio1Lz4Me1UOVYNQZCQjtzfbfr2UWf/5HEFODE/0ZBAjCIuF4aCU9cJGrG4Kumu5VBHQCMg5cX57J5pKxIQUeSBg+UCE5WMnpo1109PPNltEGVPnxmtbjuKcR0LwB6revnu49JkcB02uyiaaHAPMFwrEO9F92iVJlU/Ori1hcpSOkFlPdqHisD+kSOb/W4iAh0qTdaZtEf8CdzBkJ62Mtdd25SVaPlBEMi2wJHMqdJxB6/BUVDb2UK+RqiYoBrh6Co+G31a90+M6myprUc91/798X2jeq9dRS3tvJo0Mm3kR8s6aokWL6Y8o5aoHGBwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "options.html",
+   "permissions": [ "activeTab", "storage", "browsingData", "notifications" ],
+   "short_name": "Auto Refresh",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.6"
+}

@@ -1,0 +1,74 @@
+{
+   "appDesc": {
+      "message": "The best auto refresh extension, it helps you refresh your web page with lots of awesome features. This is 100% free and no ads."
+   },
+   "appName": {
+      "message": "Free Auto Refresh"
+   },
+   "cssSelectorPlaceholder": {
+      "message": "CSS selector"
+   },
+   "domReady": {
+      "message": "Dom Ready"
+   },
+   "inputLabel": {
+      "message": "Refresh within seconds:"
+   },
+   "inputPlaceholder": {
+      "message": "Refresh interval"
+   },
+   "moreSettings": {
+      "message": "More Settings"
+   },
+   "never": {
+      "message": "Never"
+   },
+   "noCache": {
+      "message": "No cache"
+   },
+   "notify": {
+      "message": "Notify when task stop or start"
+   },
+   "onIcon": {
+      "message": "On icon"
+   },
+   "onLoad": {
+      "message": "All resources finish loading"
+   },
+   "onPage": {
+      "message": "On page"
+   },
+   "others": {
+      "message": "Others"
+   },
+   "rightNow": {
+      "message": "Right now"
+   },
+   "someElementAppears": {
+      "message": "Some element appears"
+   },
+   "someTextAppears": {
+      "message": "Some text appears"
+   },
+   "specificTime": {
+      "message": "Specific time"
+   },
+   "textPlaceholder": {
+      "message": "String or Regex"
+   },
+   "tip": {
+      "message": "All valid settings will take effect immediately."
+   },
+   "whenToStartTask": {
+      "message": "When to start task"
+   },
+   "whenToStopTask": {
+      "message": "When to stop task"
+   },
+   "whereToShowCountdown": {
+      "message": "Where to show countdown"
+   },
+   "whereToStartCountdown": {
+      "message": "When to start countdown"
+   }
+}

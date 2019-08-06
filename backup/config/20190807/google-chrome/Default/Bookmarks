@@ -1,0 +1,62 @@
+{
+   "checksum": "669187fd9a0e97ab35aefcc72780eca2",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13180664558891440",
+            "id": "5",
+            "name": "Github",
+            "sync_transaction_version": "6",
+            "type": "url",
+            "url": "https://github.com/"
+         }, {
+            "date_added": "13180664580342381",
+            "id": "6",
+            "meta_info": {
+               "last_visited_desktop": "13202413444507073"
+            },
+            "name": "Twitter",
+            "sync_transaction_version": "10",
+            "type": "url",
+            "url": "https://twitter.com/"
+         }, {
+            "date_added": "13180664603242142",
+            "id": "7",
+            "name": "Dropbox",
+            "sync_transaction_version": "8",
+            "type": "url",
+            "url": "https://www.dropbox.com/?landing=dbv2"
+         }, {
+            "date_added": "13180722950558401",
+            "id": "8",
+            "name": "Aria2 Web",
+            "sync_transaction_version": "9",
+            "type": "url",
+            "url": "https://aria2c.com/"
+         } ],
+         "date_added": "13199310876501050",
+         "date_modified": "13204293332515103",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13199310876501058",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "10",
+      "synced": {
+         "children": [  ],
+         "date_added": "13199310876501058",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
