@@ -7,6 +7,9 @@ conf files for my workflow
     * Color: peaksea
     * Vundle
         * lightline
+    * For LaTeX
+        * vimtex
+        * tex-conceel
 
 * WM: i3 (i3-gap: Airblader/i3)
     * Bar: Ploybar
