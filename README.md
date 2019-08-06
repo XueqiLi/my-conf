@@ -1,20 +1,21 @@
-# my-conf
-conf files for my workflow
+# Configuration Files
+Configration files for my workflow
 
-## List
+## Files List
 
 * Text Editor: Vim
     * Color: peaksea
-    * Vundle
+    * Package Manager: Vundle
+    * General:
         * lightline
-    * For LaTeX
+    * LaTeX:
         * vimtex
         * tex-conceel
 
 * WM: i3 (i3-gap: Airblader/i3)
     * Bar: Ploybar
 
-* Compositor: Compton (GabrielTenma/compton-kawase-blur)
+* Compositor: Compton (with kawase blur: GabrielTenma/compton-kawase-blur)
 
 * Terminal: Alacritty
 
@@ -22,10 +23,13 @@ conf files for my workflow
 
 * Terminal Multiplexer: tmux
 
-## Unconf
+## Unlisted
 
 * Shell: zsh (with oh-my-zsh)
-    * Theme: ys
+    * Theme: ys (or honukai for Mac)
+    * Plugins
+        * autojump
+        * zsh-syntax-highlighting
 
 * File Manager: ranger
 
